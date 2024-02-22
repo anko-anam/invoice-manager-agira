@@ -69,8 +69,8 @@ include('functions.php');
 				<div class="col-xs-6">
 					<div class="panel panel-default">
 						<div class="panel-heading">
-							<h4 class="float-left">Customer Information</h4>
-							<a href="#" class="float-right select-customer"><b>OR</b> Select Existing Customer</a>
+							<h4 class="float-left">Informasi Customer</h4>
+							<a href="#" class="float-right select-customer"><b>OR</b> Pilih Customer Yang Sudah Ada</a>
 							<div class="clear"></div>
 						</div>
 						<div class="panel-body form-group form-group-sm">
@@ -153,10 +153,10 @@ include('functions.php');
 							<h4>Qty</h4>
 						</th>
 						<th>
-							<h4>Price</h4>
+							<h4>Harga</h4>
 						</th>
 						<th width="300">
-							<h4>Discount</h4>
+							<h4>Diskon</h4>
 						</th>
 						<th>
 							<h4>Sub Total</h4>
@@ -168,8 +168,8 @@ include('functions.php');
 						<td>
 							<div class="form-group form-group-sm  no-margin-bottom">
 								<a href="#" class="btn btn-danger btn-xs delete-row"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></a>
-								<input type="text" class="form-control form-group-sm item-input invoice_product" name="invoice_product[]" placeholder="Enter Product Name OR Description">
-								<p class="item-select">or <a href="#">select a product</a></p>
+								<input type="text" class="form-control form-group-sm item-input invoice_product" name="invoice_product[]" placeholder="Pilih Nama Produk Atau Deskripsi">
+								<p class="item-select">or <a href="#">Pilih Produk</a></p>
 							</div>
 						</td>
 						<td class="text-right">
@@ -200,7 +200,7 @@ include('functions.php');
 			<div id="invoice_totals" class="padding-right row text-right">
 				<div class="col-xs-6">
 					<div class="input-group form-group-sm textarea no-margin-bottom">
-						<textarea class-"form-control" name="invoice_notes" placeholder="Additional Notes..."></textarea>
+						<textarea class-"form-control" name="invoice_notes" placeholder="Tambahkan Komentar..."></textarea>
 					</div>
 
 					
@@ -240,7 +240,7 @@ include('functions.php');
 					<?php if (ENABLE_VAT == true) { ?>
 					<div class="row">
 						<div class="col-xs-4 col-xs-offset-5">
-							<strong>TAX/VAT:</strong><br>Remove TAX/VAT <input type="checkbox" class="remove_vat">
+							<strong>Ppn:</strong><br>Remove TAX/VAT <input type="checkbox" class="remove_vat">
 						</div>
 						<div class="col-xs-3">
 							<?php echo CURRENCY ?><span class="invoice-vat" data-enable-vat="<?php echo ENABLE_VAT ?>" data-vat-rate="<?php echo VAT_RATE ?>" data-vat-method="<?php echo VAT_INCLUDED ?>">0.00</span>
