@@ -24,17 +24,17 @@ include('functions.php');
 	                <fieldset>
 			    	  	<div class="input-group form-group">
 			    	  		<div class="input-group-addon"><i class="glyphicon glyphicon-user"></i></div>
-			    		    <input class="form-control required" name="username" id="username" type="text" placeholder="Enter Username">
+			    		    <input class="form-control required" name="username" id="username" type="text" placeholder="Masukan Username">
 			    		</div>
 			    		<div class="input-group form-group">
 			    		 	<div class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></div>
-			    			<input class="form-control required" placeholder="Password" name="password" type="password" placeholder="Enter Password">
+			    			<input class="form-control required" placeholder="Password" name="password" type="password" placeholder="Masukan Password">
 			    		</div>
 			    		<div class="checkbox">
 			    	    	<label>
 			    	    		<input name="remember" type="checkbox" value="Remember Me"> Remember Me
 			    	    	</label>
-			    	    	<!--a href="forgot.php" class="float-right">Forgot password?</a-->
+			    	    	<!--a href="forgot.php" class="float-right">Lupa password?</a-->
 			    	    </div>
 			    		<button type="button" id="btn-login" class="btn btn-danger btn-block">Login</button><br>
 			    	</fieldset>
