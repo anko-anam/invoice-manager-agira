@@ -42,7 +42,7 @@ include('functions.php');
 					<div class="col-xs-4 no-padding-right">
 				        <div class="form-group">
 				            <div class="input-group date" id="invoice_date">
-				                <input type="text" class="form-control required" name="invoice_date" placeholder="Invoice Date" data-date-format="<?php echo DATE_FORMAT ?>" />
+				                <input type="text" class="form-control required" name="invoice_date" placeholder="Tanggal Invoice" data-date-format="<?php echo DATE_FORMAT ?>" />
 				                <span class="input-group-addon">
 				                    <span class="glyphicon glyphicon-calendar"></span>
 				                </span>
@@ -52,7 +52,7 @@ include('functions.php');
 				    <div class="col-xs-4">
 				        <div class="form-group">
 				            <div class="input-group date" id="invoice_due_date">
-				                <input type="text" class="form-control required" name="invoice_due_date" placeholder="Due Date" data-date-format="<?php echo DATE_FORMAT ?>" />
+				                <input type="text" class="form-control required" name="invoice_due_date" placeholder="Batas Pembayaran" data-date-format="<?php echo DATE_FORMAT ?>" />
 				                <span class="input-group-addon">
 				                    <span class="glyphicon glyphicon-calendar"></span>
 				                </span>
@@ -61,7 +61,7 @@ include('functions.php');
 				    </div>
 					<div class="input-group col-xs-4 float-right">
 						<span class="input-group-addon">#<?php echo INVOICE_PREFIX ?></span>
-						<input type="text" name="invoice_id" id="invoice_id" class="form-control required" placeholder="Invoice Number" aria-describedby="sizing-addon1" value="<?php getInvoiceId(); ?>">
+						<input type="text" name="invoice_id" id="invoice_id" class="form-control required" placeholder="Nomor Invoice" aria-describedby="sizing-addon1" value="<?php getInvoiceId(); ?>">
 					</div>
 				</div>
 			</div>
@@ -69,7 +69,7 @@ include('functions.php');
 				<div class="col-xs-6">
 					<div class="panel panel-default">
 						<div class="panel-heading">
-							<h4 class="float-left">Informasi Customer</h4>
+							<h4 class="float-left">Shipping Information</h4>
 							<a href="#" class="float-right select-customer"><b>OR</b> Pilih Customer Yang Sudah Ada</a>
 							<div class="clear"></div>
 						</div>
@@ -77,31 +77,31 @@ include('functions.php');
 							<div class="row">
 								<div class="col-xs-6">
 									<div class="form-group">
-										<input type="text" class="form-control margin-bottom copy-input required" name="customer_name" id="customer_name" placeholder="Enter Name" tabindex="1">
+										<input type="text" class="form-control margin-bottom copy-input required" name="customer_name" id="customer_name" placeholder="Masukan Nama" tabindex="1">
 									</div>
 									<div class="form-group">
-										<input type="text" class="form-control margin-bottom copy-input required" name="customer_address_1" id="customer_address_1" placeholder="Address 1" tabindex="3">	
+										<input type="text" class="form-control margin-bottom copy-input required" name="customer_address_1" id="customer_address_1" placeholder="Alamat" tabindex="3">	
 									</div>
 									<div class="form-group">
-										<input type="text" class="form-control margin-bottom copy-input required" name="customer_town" id="customer_town" placeholder="Town" tabindex="5">		
+										<input type="text" class="form-control margin-bottom copy-input required" name="customer_town" id="customer_town" placeholder="Kota/Kab" tabindex="5">		
 									</div>
 									<div class="form-group no-margin-bottom">
-										<input type="text" class="form-control copy-input required" name="customer_postcode" id="customer_postcode" placeholder="Postcode" tabindex="7">					
+										<input type="text" class="form-control copy-input required" name="customer_postcode" id="customer_postcode" placeholder="Kode Pos" tabindex="7">					
 									</div>
 								</div>
 								<div class="col-xs-6">
 									<div class="input-group float-right margin-bottom">
 										<span class="input-group-addon"><i class="fa fa-envelope"></i></span>
-										<input type="email" class="form-control copy-input required" name="customer_email" id="customer_email" placeholder="E-mail Address" aria-describedby="sizing-addon1" tabindex="2">
+										<input type="email" class="form-control copy-input required" name="customer_email" id="customer_email" placeholder="E-mail" aria-describedby="sizing-addon1" tabindex="2">
 									</div>
 								    <div class="form-group">
-								    	<input type="text" class="form-control margin-bottom copy-input" name="customer_address_2" id="customer_address_2" placeholder="Address 2" tabindex="4">
+								    	<input type="text" class="form-control margin-bottom copy-input" name="customer_address_2" id="customer_address_2" placeholder="Detail Alamat" tabindex="4">
 								    </div>
 								    <div class="form-group">
-								    	<input type="text" class="form-control margin-bottom copy-input required" name="customer_county" id="customer_county" placeholder="Country" tabindex="6">
+								    	<input type="text" class="form-control margin-bottom copy-input required" name="customer_county" id="customer_county" placeholder="Negara" tabindex="6">
 								    </div>
 								    <div class="form-group no-margin-bottom">
-								    	<input type="text" class="form-control required" name="customer_phone" id="customer_phone" placeholder="Phone Number" tabindex="8">
+								    	<input type="text" class="form-control required" name="customer_phone" id="customer_phone" placeholder="Telepon/Wa" tabindex="8">
 									</div>
 								</div>
 							</div>
@@ -117,24 +117,24 @@ include('functions.php');
 							<div class="row">
 								<div class="col-xs-6">
 									<div class="form-group">
-										<input type="text" class="form-control margin-bottom required" name="customer_name_ship" id="customer_name_ship" placeholder="Enter Name" tabindex="9">
+										<input type="text" class="form-control margin-bottom required" name="customer_name_ship" id="customer_name_ship" placeholder="Masukan Nama" tabindex="9">
 									</div>
 									<div class="form-group">
-										<input type="text" class="form-control margin-bottom" name="customer_address_2_ship" id="customer_address_2_ship" placeholder="Address 2" tabindex="11">	
+										<input type="text" class="form-control margin-bottom" name="customer_address_2_ship" id="customer_address_2_ship" placeholder="Detail Alamat" tabindex="11">	
 									</div>
 									<div class="form-group no-margin-bottom">
-										<input type="text" class="form-control required" name="customer_county_ship" id="customer_county_ship" placeholder="Country" tabindex="13">
+										<input type="text" class="form-control required" name="customer_county_ship" id="customer_county_ship" placeholder="Negara" tabindex="13">
 									</div>
 								</div>
 								<div class="col-xs-6">
 									<div class="form-group">
-								    	<input type="text" class="form-control margin-bottom required" name="customer_address_1_ship" id="customer_address_1_ship" placeholder="Address 1" tabindex="10">
+								    	<input type="text" class="form-control margin-bottom required" name="customer_address_1_ship" id="customer_address_1_ship" placeholder="Alamat" tabindex="10">
 									</div>
 									<div class="form-group">
-										<input type="text" class="form-control margin-bottom required" name="customer_town_ship" id="customer_town_ship" placeholder="Town" tabindex="12">							
+										<input type="text" class="form-control margin-bottom required" name="customer_town_ship" id="customer_town_ship" placeholder="Kota/Kab" tabindex="12">							
 								    </div>
 								    <div class="form-group no-margin-bottom">
-								    	<input type="text" class="form-control required" name="customer_postcode_ship" id="customer_postcode_ship" placeholder="Postcode" tabindex="14">
+								    	<input type="text" class="form-control required" name="customer_postcode_ship" id="customer_postcode_ship" placeholder="Kode Pos" tabindex="14">
 									</div>
 								</div>
 							</div>
@@ -147,7 +147,7 @@ include('functions.php');
 				<thead>
 					<tr>
 						<th width="500">
-							<h4><a href="#" class="btn btn-success btn-xs add-row"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></a> Product</h4>
+							<h4><a href="#" class="btn btn-success btn-xs add-row"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></a> Produk</h4>
 						</th>
 						<th>
 							<h4>Qty</h4>
@@ -185,7 +185,7 @@ include('functions.php');
 						</td>
 						<td class="text-right">
 							<div class="form-group form-group-sm  no-margin-bottom">
-								<input type="text" class="form-control calculate" name="invoice_product_discount[]" placeholder="Enter % OR value (ex: 10% or 10.50)">
+								<input type="text" class="form-control calculate" name="invoice_product_discount[]" placeholder="Masukan % Atau nilai (contoh: 10% atau 10.50)">
 							</div>
 						</td>
 						<td class="text-right">
@@ -219,7 +219,7 @@ include('functions.php');
 					</div>
 					<div class="row">
 						<div class="col-xs-4 col-xs-offset-5">
-							<strong>Discount:</strong>
+							<strong>Diskon:</strong>
 						</div>
 						<div class="col-xs-3">
 							<?php echo CURRENCY ?><span class="invoice-discount">0.00</span>
@@ -261,11 +261,11 @@ include('functions.php');
 
 		
 					<div class="col-xs-6">
-						<input type="email" name="custom_email" id="custom_email" class="custom_email_textarea" placeholder="Enter custom email if you wish to override the default invoice type email msg!"></input>
+						<input type="email" name="custom_email" id="custom_email" class="custom_email_textarea" placeholder="Masukkan email khusus jika Anda ingin mengganti pesan email jenis faktur default!"></input>
 					</div>
 
 					<div class="col-xs-6 margin-top btn-group">
-						<input type="submit" id="action_create_invoice" class="btn btn-success float-right" value="Create Invoice" data-loading-text="Creating...">
+						<input type="submit" id="action_create_invoice" class="btn btn-success float-right" value="Create Invoice" data-loading-text="Membuat...">
 					</div>
 			
 
@@ -280,14 +280,14 @@ include('functions.php');
 		    <div class="modal-content">
 		      <div class="modal-header">
 		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-		        <h4 class="modal-title">Select Product</h4>
+		        <h4 class="modal-title">Pilih produk</h4>
 		      </div>
 		      <div class="modal-body">
 				<?php popProductsList(); ?>
 		      </div>
 		      <div class="modal-footer">
 		        <button type="button" data-dismiss="modal" class="btn btn-primary" id="selected">Add</button>
-				<button type="button" data-dismiss="modal" class="btn">Cancel</button>
+				<button type="button" data-dismiss="modal" class="btn">Batal</button>
 		      </div>
 		    </div><!-- /.modal-content -->
 		  </div><!-- /.modal-dialog -->
@@ -298,13 +298,13 @@ include('functions.php');
 		    <div class="modal-content">
 		      <div class="modal-header">
 		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-		        <h4 class="modal-title">Select An Existing Customer</h4>
+		        <h4 class="modal-title">Pilih Customer Yang Sudah Ada</h4>
 		      </div>
 		      <div class="modal-body">
 				<?php popCustomersList(); ?>
 		      </div>
 		      <div class="modal-footer">
-				<button type="button" data-dismiss="modal" class="btn">Cancel</button>
+				<button type="button" data-dismiss="modal" class="btn">Batal</button>
 		      </div>
 		    </div><!-- /.modal-content -->
 		  </div><!-- /.modal-dialog -->
