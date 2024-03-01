@@ -44,8 +44,8 @@
 		<div class="top-buttons btn-group">
 			<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Invoices <span class="caret"></span></button>
 		  	<ul class="dropdown-menu" role="menu">	
-		  		<li><a href="invoice-create.php">Create Invoice</a></li>	    
-				<li><a href="invoice-list.php">Manage Invoices</a></li>
+		  		<li><a href="invoice-create.php">Buat Invoice</a></li>	    
+				<li><a href="invoice-list.php">Kelola Invoice</a></li>
 				<li><a href="#" class="download-csv">Download CSV</a></li>
 		  	</ul>
 		</div>
@@ -53,24 +53,24 @@
 		<div class="top-buttons btn-group">
 			<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Items <span class="caret"></span></button>
 		  	<ul class="dropdown-menu" role="menu">	
-		  		<li><a href="product-add.php">Add Item</a></li>	    
-				<li><a href="product-list.php">Manage Item</a></li>
+		  		<li><a href="product-add.php">Tambah Item</a></li>	    
+				<li><a href="product-list.php">Kelola Item</a></li>
 		  	</ul>
 		</div>
 
 		<div class="top-buttons btn-group">
-			<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Customers <span class="caret"></span></button>
+			<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Pelanggan <span class="caret"></span></button>
 		  	<ul class="dropdown-menu" role="menu">	
-		  		<li><a href="customer-add.php">Add Customer</a></li>	    
-				<li><a href="customer-list.php">Manage Customers</a></li>
+		  		<li><a href="customer-add.php">Tambah Pelanggan</a></li>	    
+				<li><a href="customer-list.php">Kelola Pelanggan</a></li>
 		  	</ul>
 		</div>
 
 		<div class="top-buttons btn-group">
 			<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Users <span class="caret"></span></button>
 		  	<ul class="dropdown-menu" role="menu">	
-		  		<li><a href="user-add.php">Add User</a></li>	    
-				<li><a href="user-list.php">Manage Users</a></li>
+		  		<li><a href="user-add.php">Tambah User</a></li>	    
+				<li><a href="user-list.php">Kelola Users</a></li>
 		  	</ul>
 		</div>
 
