@@ -114,33 +114,33 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="invoice-create.php"><i class="fa fa-plus"></i>Create Invoice</a></li>
-            <li><a href="invoice-list.php"><i class="fa fa-cog"></i>Manage Invoices</a></li>
+            <li><a href="invoice-create.php"><i class="fa fa-plus"></i>Buat Invoice</a></li>
+            <li><a href="invoice-list.php"><i class="fa fa-cog"></i>Kelola Invoice</a></li>
             <li><a href="#" class="download-csv"><i class="fa fa-download"></i>Download CSV</a></li>
           </ul>
         </li>
         <!-- Menu 2 -->
          <li class="treeview">
-          <a href="#"><i class="fa fa-archive"></i><span>Products</span>
+          <a href="#"><i class="fa fa-archive"></i><span>Produk</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="product-add.php"><i class="fa fa-plus"></i>Add Products</a></li>
-            <li><a href="product-list.php"><i class="fa fa-cog"></i>Manage Products</a></li>
+            <li><a href="product-add.php"><i class="fa fa-plus"></i>Tambah Produk</a></li>
+            <li><a href="product-list.php"><i class="fa fa-cog"></i>Kelola Produk</a></li>
           </ul>
         </li>
         <!-- Menu 3 -->
         <li class="treeview">
-          <a href="#"><i class="fa fa-users"></i><span>Customers</span>
+          <a href="#"><i class="fa fa-users"></i><span>Pelanggan</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="customer-add.php"><i class="fa fa-user-plus"></i>Add Customer</a></li>
-            <li><a href="customer-list.php"><i class="fa fa-cog"></i>Manage Customers</a></li>
+            <li><a href="customer-add.php"><i class="fa fa-user-plus"></i>Tambah Pelanggan</a></li>
+            <li><a href="customer-list.php"><i class="fa fa-cog"></i>Kelola Pelanggan</a></li>
           </ul>
         </li>
         
@@ -152,8 +152,8 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="user-add.php"><i class="fa fa-plus"></i>Add User</a></li>
-            <li><a href="user-list.php"><i class="fa fa-cog"></i>Manage Users</a></li>
+            <li><a href="user-add.php"><i class="fa fa-plus"></i>Tambah User</a></li>
+            <li><a href="user-list.php"><i class="fa fa-cog"></i>Kelola Users</a></li>
           </ul>
         </li>
         
