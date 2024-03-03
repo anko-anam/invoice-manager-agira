@@ -23,7 +23,7 @@ include('functions.php');
 				<div class="col-xs-8 text-right">
 					<div class="row">
 						<div class="col-xs-6">
-							<h2 class="">Select Type:</h2>
+							<h2 class="">Pilih Tipe:</h2>
 						</div>
 						<div class="col-xs-3">
 							<select name="invoice_type" id="invoice_type" class="form-control">
@@ -265,7 +265,7 @@ include('functions.php');
 					</div>
 
 					<div class="col-xs-6 margin-top btn-group">
-						<input type="submit" id="action_create_invoice" class="btn btn-success float-right" value="Create Invoice" data-loading-text="Membuat...">
+						<input type="submit" id="action_create_invoice" class="btn btn-success float-right" value="Create Invoice" data-loading-text="Creating...">
 					</div>
 			
 

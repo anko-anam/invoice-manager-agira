@@ -33,7 +33,7 @@ class invoicr extends FPDF_rotation
 	*                               Public methods                                 *
 	*                                                                              *
 	*******************************************************************************/
-	function invoicr($size='A4',$currency='€',$language='en')
+	function invoicr($size='A4',$currency='Rp.',$language='en')
 	{
 		$this->columns = 5;
 		$this->items = array();
