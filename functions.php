@@ -68,7 +68,7 @@ function getInvoices() {
 
 	} else {
 
-		echo "<p>There are no invoices to display.</p>";
+		echo "<p>Tidak Ada Invoice Untuk Ditampilkan.</p>";
 
 	}
 

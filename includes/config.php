@@ -39,7 +39,7 @@ define('DATE_FORMAT', 'DD/MM/YYYY'); // DD/MM/YYYY or MM/DD/YYYY
 define('CURRENCY', 'Rp.'); // Currency symbol
 define('ENABLE_VAT', true); // Enable TAX/VAT
 define('VAT_INCLUDED', false); // Is VAT included or excluded?
-define('VAT_RATE', '10'); // This is the percentage value
+define('VAT_RATE', '11'); // This is the percentage value
 
 define('PAYMENT_DETAILS', 'Invoice Mg System.<br>Sort Code: 00-00-00<br>Account Number: 12345678'); // Payment information
 define('FOOTER_NOTE', 'Invoice Management System');
