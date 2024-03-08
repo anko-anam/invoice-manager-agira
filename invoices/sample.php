@@ -1,11 +1,11 @@
 <?php
 //Set default date timezone
-date_default_timezone_set('Europe/London');
+date_default_timezone_set('Asia/Jakarta');
 //Include Invoicr class
 include('../invoice.php');
 include('../includes/config.php');
 //Create a new instance
-$invoice = new invoicr("A4","£","en");
+$invoice = new invoicr("A4","$","en");
 //Set number formatting
 $invoice->setNumberFormat('.',',');
 //Set your logo

@@ -9,7 +9,7 @@ define('DATABASE_USER', 'root');
 define('DATABASE_PASS', '');
 
 // COMPANY INFORMATION
-define('COMPANY_LOGO', 'images/logonpn.png');
+define('COMPANY_LOGO', 'images/logo.png');
 define('COMPANY_LOGO_WIDTH', '300');
 define('COMPANY_LOGO_HEIGHT', '90');
 define('COMPANY_NAME','Invoice Mg System');
