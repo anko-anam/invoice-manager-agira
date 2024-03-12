@@ -84,7 +84,7 @@ class invoicr extends FPDF_rotation
 	function setFrom($data)
 	{
 		$this->from = array_filter($data);
-        //print_r(array_filter($data));
+        print_r(array_filter($data));
 	}
 	
 	function setTo($data)
